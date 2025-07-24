@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 import { FiMenu, FiX } from "react-icons/fi";
 
-const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
+const navItems = [ "Vault",  "About", "Contact"];
 
 const NavBar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
